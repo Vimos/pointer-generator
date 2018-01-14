@@ -16,6 +16,7 @@
 
 """This file contains code to run beam search decoding"""
 
+from six.moves import xrange
 import tensorflow as tf
 import numpy as np
 import data

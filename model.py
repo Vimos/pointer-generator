@@ -16,6 +16,7 @@
 
 """This file contains code to build and run the tensorflow graph for the sequence-to-sequence model"""
 
+from six.moves import xrange
 import os
 import time
 import numpy as np
